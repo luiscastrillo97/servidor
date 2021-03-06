@@ -1,7 +1,8 @@
 FROM nodered/node-red:latest
 
-RUN npm install node-red-contrib-amqp-ack
-RUN npm install node-red-dashboard
-RUN npm install node-red-contrib-web-worldmap
-RUN npm install node-red-contrib-chartjs
-RUN npm install node-red-contrib-graphs
+RUN sudo npm install node-red-contrib-amqp-ack
+RUN sudo npm install node-red-dashboard
+RUN sudo npm install node-red-contrib-web-worldmap
+RUN sudo npm install node-red-contrib-chartjs
+RUN sudo npm install node-red-contrib-graphs
+
